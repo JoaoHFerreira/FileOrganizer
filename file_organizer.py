@@ -3,14 +3,15 @@ import yaml
 
 class OrganizeFolderFiles:
 
-    def __init__(self):
+    def __init__(self, yaml_origin):
         self.configs = self._load_configs()
         self.root_path = self.configs.get("path")
         self.default_folders = self.configs.get("default_folders")
         self.destiny_root = self.configs.get("destiny_root")
+        self.yaml_origin = yaml_origin
 
     def _load_configs(self):
-        with open('/home/joaoh/sandbox/projects/osDataLake/configs.yml') as conf_file:
+        with open('configs.yml') as conf_file:
             configs = yaml.safe_load(conf_file)
         return  configs
 
