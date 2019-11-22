@@ -40,7 +40,7 @@ To make sure that your script will run scheduled, we need to add in your system 
 ```
 Example:
 
-*/5 * * * *  python3 YOUR_PATH_TO_YOUR_SCRIPT/datalake.py
+*/5 * * * *  python3 YOUR_PATH_TO_YOUR_SCRIPT/file_organizer.py
 ```
 In this example we put a scheduler every 5 minutes. To understand more abou cron I suggest the following links:
 - https://crontab.guru
