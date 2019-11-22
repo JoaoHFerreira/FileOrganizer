@@ -46,3 +46,5 @@ In this example we put a scheduler every 5 minutes. To understand more abou cron
 - https://crontab.guru
 - https://www.ostechnix.com/a-beginners-guide-to-cron-jobs/
 
+## How do I contribute for FileOrganizer
+Check this [link](https://github.com/JoaoHFerreira/FileOrganizer/blob/master/CONTRIBUTING) for detailed instructions
