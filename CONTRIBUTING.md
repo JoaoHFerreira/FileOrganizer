@@ -7,7 +7,7 @@ It is also essential for the development of the project.
 
 ### You have a problem
 
-Please be so kind as to [search](#use-the-search-luke) for any open issue already covering
+Please be so kind as to search for any open issue already covering
 your problem.
 
 If you find one, comment on it so we can know there are more people experiencing it.
@@ -23,7 +23,7 @@ We will do our very best to help you.
 
 ### You have a suggestion
 
-Please be so kind as to [search](#use-the-search-luke) for any open issue already covering
+Please be so kind as to search for any open issue already covering
 your suggestion.
 
 If you find one, comment on it so we can know there are more people supporting it.
@@ -45,8 +45,8 @@ _"Fixes #XXXX"_ for issue number XXXX.
 
 ### You have a solution
 
-Please be so kind as to [search](#use-the-search-luke) for any open issue already covering
-your [problem](#you-have-a-problem), and any pending/merged/rejected PR covering your solution.
+Please be so kind as to search for any open issue already covering
+your search, and any pending/merged/rejected PR covering your solution.
 
 If the solution is already reported, try it out and +1 the pull request if the
 solution works ok. On the other hand, if you think your solution is better, post
