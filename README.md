@@ -32,3 +32,17 @@ Taking the folder `Documentos`, every pdf file in path will be put in this desti
  If the file type as not tracked  then a folder in the path will be created.
 
  The rull of folders name creation is simple, if exists, not create, if not, create.
+
+## Cron
+To make sure that your script will run scheduled, we need to add in your system cron. To do that follow the next steps.
+- 1. Enter in your system as admin using: `sudo su`;
+- 2. Digit `crontab -e` to enter in your and specify a scheduler that satisfies your requirements.
+```
+Example:
+
+*/5 * * * *  python3 YOUR_PATH_TO_YOUR_SCRIPT/datalake.py
+```
+In this example we put a scheduler every 5 minutes. To understand more abou cron I suggest the following links:
+- https://crontab.guru
+- https://www.ostechnix.com/a-beginners-guide-to-cron-jobs/
+
