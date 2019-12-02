@@ -73,4 +73,6 @@ class OrganizeFolderFiles:
 
         return os.path.join(self.root_path, folder_name.capitalize())
 
-OrganizeFolderFiles().execute()
+yaml_origin = "/home/joaoh/repos_to_conribute/joaoh/FileOrganizer/configs.yml"
+
+OrganizeFolderFiles(yaml_origin).execute()
