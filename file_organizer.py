@@ -1,4 +1,5 @@
 import os
+import pathlib
 import yaml
 
 class OrganizeFolderFiles:
@@ -73,6 +74,8 @@ class OrganizeFolderFiles:
 
         return os.path.join(self.root_path, folder_name.capitalize())
 
-yaml_origin = "/home/joaoh/repos_to_conribute/joaoh/FileOrganizer/configs.yml"
+# yaml_origin = "/home/joaoh/repos_to_conribute/joaoh/FileOrganizer/configs.yml"
 
-OrganizeFolderFiles(yaml_origin).execute()
+print(pathlib.Path(__file__).parent.resolve())
+
+# OrganizeFolderFiles(yaml_origin).execute()
