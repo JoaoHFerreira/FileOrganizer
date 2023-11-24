@@ -1,0 +1,1 @@
+pub mod file_from_other_package;
