@@ -1,0 +1,6 @@
+path: /home/joaoh/Downloads
+destiny_root: /home/joaoh/
+
+default_folders:
+    Imagens: png,jpg,jpeg
+    Documentos: pdf,ipynb,json,tf,jar,zip,gz,me,xml,script,sh,py
